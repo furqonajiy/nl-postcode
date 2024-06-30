@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @Slf4j
 public class Application {
     public static void main(String[] args) {
-        log.debug("Rest Countries Main Application Started");
+        log.debug("NL Postcode Main Application Started");
 
         SpringApplication.run(Application.class, args);
     }

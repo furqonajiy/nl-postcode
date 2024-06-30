@@ -30,7 +30,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <restcountries.version>1.0.0-SNAPSHOT</restcountries.version>
+        <nl.postcode.version>1.0.0-SNAPSHOT</nl.postcode.version>
     </properties>
 
     <dependencyManagement>
@@ -46,7 +46,7 @@
             <dependency>
                 <groupId>com.furqonajiy</groupId>
                 <artifactId>nl-postcode-model</artifactId>
-                <version>${restcountries.version}</version>
+                <version>${nl.postcode.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
